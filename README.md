@@ -22,6 +22,87 @@ StreamlineOPS (Streamline Operations) – is a comprehensive platform designed t
 - [MySQL](https://www.mysql.com/)
 - [TypeORM](https://typeorm.io/)
 
+## 🌲 Directory Tree
+
+```
+   payroll-system-backend
+    ├── README.md
+    ├── nest-cli.json
+    ├── package-lock.json
+    ├── package.json
+    ├── scripts
+    ├── src
+    │   ├── app.module.ts
+    │   ├── app.routes.ts
+    │   ├── auth
+    │   │   ├── auth.controller.ts
+    │   │   ├── auth.module.ts
+    │   │   ├── auth.service.ts
+    │   │   ├── dtos
+    │   │   ├── strategies
+    │   │   └── types
+    │   ├── branches
+    │   │   ├── branches.controller.ts
+    │   │   ├── branches.module.ts
+    │   │   ├── branches.service.ts
+    │   │   ├── dtos
+    │   │   └── entities
+    │   ├── commons
+    │   │   ├── decorators
+    │   │   ├── enums
+    │   │   ├── filters
+    │   │   ├── guards
+    │   │   ├── helpers
+    │   │   ├── interceptors
+    │   │   ├── interfaces
+    │   │   └── middleware
+    │   ├── db
+    │   ├── departments
+    │   │   ├── departments.controller.ts
+    │   │   ├── departments.module.ts
+    │   │   ├── departments.service.ts
+    │   │   ├── dtos
+    │   │   └── entities
+    │   ├── iam
+    │   │   ├── dtos
+    │   │   ├── entities
+    │   │   ├── iam.controller.ts
+    │   │   ├── iam.module.ts
+    │   │   └── iam.service.ts
+    │   ├── main.ts
+    │   ├── members
+    │   │   ├── credentials.service.ts
+    │   │   ├── dtos
+    │   │   ├── entities
+    │   │   ├── members.controller.ts
+    │   │   ├── members.module.ts
+    │   │   └── members.service.ts
+    │   ├── organizations
+    │   │   ├── dtos
+    │   │   ├── entities
+    │   │   ├── organizations.controller.ts
+    │   │   ├── organizations.module.ts
+    │   │   ├── organizations.service.ts
+    │   │   └── serializers
+    │   ├── profiles
+    │   │   ├── dtos
+    │   │   ├── entities
+    │   │   ├── profiles.controller.ts
+    │   │   ├── profiles.module.ts
+    │   │   └── profiles.service.ts
+    │   └── users
+    │       ├── dtos
+    │       ├── entities
+    │       ├── users.controller.ts
+    │       ├── users.module.ts
+    │       └── users.service.ts
+    ├── test
+    │   ├── app.e2e-spec.ts
+    │   └── jest-e2e.json
+    ├── tsconfig.build.json
+    └── tsconfig.json
+```
+
 ## 🚀 Running the app
 
 ```bash
